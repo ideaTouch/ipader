@@ -1,0 +1,25 @@
+body{
+	width:768px;
+	margin:auto;
+	font: 16px/1.5em Arial,Helvetica,sans-serif;
+}
+.s5{
+	text-align:center;
+}
+img{
+	max-width: 98%;
+}
+.s6{
+	font-size:14px;
+}
+.s6,.s7{
+	text-align:left;
+	text-indent: 2em;
+}
+.s8{
+	float:right;
+}
+.s10{
+	float:left;
+	margin-right:10px;
+}
