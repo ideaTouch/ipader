@@ -2,7 +2,7 @@
 ===
 ## 关于
 <img src="ipader-logo_1.0.png" width="120px" style="float:right"/> 
-ideaTouch公司下属技术交流帐号。技术涉足领域包括：产品开发，HTML5/JS，Swift语言，iOS/Android产品及应用，开源实验性项目。
+此站是ideaTouch公司下属技术交流帐号。技术涉足领域包括：产品开发，HTML5/JS，Swift语言，iOS/Android产品及应用，开源实验性项目。
 
 * [@iPader](http://weibo.com/ipader)：自有产品《读了吗》及衍生产品微博
 * [@JSLab](http://weibo.com/jslab)：HTML5/JS技术及开源项目分享微博
