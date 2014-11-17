@@ -16,7 +16,6 @@
 ## 分享
 1. [Swift语言指南](http://dev.swiftguide.cn) ([持续更新中...](https://github.com/ipader/SwiftGuide))
 2. [HTML5应用介绍](http://wenku.baidu.com/view/eb4f15dbad51f01dc281f129.html) (2010/11/1)
-
 ## 文章
 1. [Google Glass: 未来不遥远](blog/chapter-1.xhtml) (2013-2-21)
 2. [Apple：如此相得益彰](blog/chapter-18.xhtml) (2010-4-19)
