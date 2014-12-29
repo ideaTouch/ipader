@@ -1,122 +1,209 @@
-
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!doctype html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #737373;
+    background-color: white;
+    margin: 0px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
 
-  
-  <meta name="description" content=" Blog Archives Recent Posts ">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://ipader.github.io">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>关于</title>
 
 </head>
+<body>
+<h1><center style="background: #666;color: whitesmoke;">iPader</h1>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
-  
-    <h2>A blogging framework for hackers.</h2>
-  
-</hgroup>
+<h2>关于</h2>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:ipader.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+<p><img src="ipader-logo_1.0.png" width="120px" style="float:right"/>
+这是一个兴趣驱动型交流及分享小站。主要涉足技术领域包括：产品开发，HTML5/JS，Swift语言，iOS/Android产品及应用，开源实验性项目。</p>
+
+<ul>
+<li><a href="http://weibo.com/ipader">@iPader</a>：自有产品《读了吗》及衍生产品微博</li>
+<li><a href="http://weibo.com/jslab">@JSLab</a>：HTML5/JS技术及开源项目分享微博</li>
+<li><a href="http://weibo.com/swiftlanguage">@SwiftLanguage</a>：Swift语言技术及开源项目分享微博</li>
 </ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-  </ul>
-</section>
+
+<h2>项目</h2>
+
+<ol>
+<li><a href="http://dulema.com">读了吗</a>: 它是一款跨媒体网络图书馆应用。为主流文档（PDF, Word, PPT, ePub, Text, UMD, Google Books, RSS, HTML）提供统一的管理、阅读体验！</li>
+<li><a href="http://m.dulema.com">读了吗·稍后</a>: 它是《读了吗》轻版应用，也是一款加强版“稍后阅读”。缺省附带的浏览器扩展应用加速访问效率。为博客、订阅、文章、网页提供电子书式阅读体验，以及排版精美的长微博制作、分享功能。</li>
+</ol>
 
 
+<h2>分享</h2>
 
+<ol>
+<li><a href="http://dev.swiftguide.cn">Swift语言指南</a> (<a href="https://github.com/ipader/SwiftGuide">持续更新中...</a>)</li>
+<li><a href="http://wenku.baidu.com/view/eb4f15dbad51f01dc281f129.html">HTML5应用介绍</a> (2010/11/1)
 
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Your Name -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
+<h2>文章</h2></li>
+<li><a href="blog/chapter-1.xhtml">Google Glass: 未来不遥远</a> (2013-2-21)</li>
+<li><a href="blog/chapter-18.xhtml">Apple：如此相得益彰</a> (2010-4-19)</li>
+<li><a href="blog/chapter-17.xhtml">iPad：改变我们的生活习惯</a> (2010-3-27)</li>
+<li><a href="blog/chapter-16.xhtml">iPad：谁为您的利益负责？</a> (2010-3-19)</li>
+<li><a href="blog/chapter-15.xhtml">UED：Web应用我所见</a> (2010-3-14)</li>
+<li><a href="blog/chapter-14.xhtml">iPad：实用来自云端</a> (2010-3-10)</li>
+<li><a href="blog/chapter-13.xhtml">iPad：人机界面2.0</a> (2010-3-8)</li>
+<li><a href="blog/chapter-12.xhtml">iPad：谁的奶酪？</a> (2010-3-3)</li>
+<li><a href="blog/chapter-11.xhtml">iPad：触控的魅力</a> (2010-3-1)</li>
+<li><a href="blog/chapter-10.xhtml">iPad：历史的车轮</a> (2010-2-22)</li>
+<li><a href="blog/chapter-9.xhtml">iPad：如何捧着工作</a> (2010-2-19)</li>
+<li><a href="blog/chapter-8.xhtml">iPad：最后的战场</a> (2010-2-11)</li>
+<li><a href="blog/chapter-7.xhtml">iPad：原生应用还是Web应用？</a> (2010-2-5)</li>
+<li><a href="blog/chapter-6.xhtml">iPad：企业应用前景展望（三）</a> (2010-2-4)</li>
+<li><a href="blog/chapter-5.xhtml">iPad：企业应用前景展望（二）</a> (2010-2-2)</li>
+<li><a href="blog/chapter-4.xhtml">iPad：企业应用前景展望（一）</a> (2010-2-2)</li>
+<li><a href="blog/chapter-3.xhtml">iPad：更真切地的认识它</a> (2010-1-31)</li>
+<li><a href="blog/chapter-2.xhtml">iPad：回归理性的最佳设计</a> (2010-1-28)</li>
+</ol>
 
 </body>
 </html>
