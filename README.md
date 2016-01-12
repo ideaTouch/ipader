@@ -15,9 +15,12 @@
 
 
 ## 分享
-1. [Swift语言指南](http://dev.swiftguide.cn) ([持续更新中...](https://github.com/ipader/SwiftGuide))
-2. [IoT笔记](https://github.com/ideaTouch/IoTNotes)（更新中...）
-3. [HTML5应用介绍](http://wenku.baidu.com/view/eb4f15dbad51f01dc281f129.html) (2010/11/1)
+1. [Swift 语言指南](http://dev.swiftguide.cn) ([GitHub](https://github.com/ipader/SwiftGuide))
+	* [Swift 收录周报](https://github.com/ipader/SwiftGuide/blob/master/weekly/README.md)
+	* [Swift 开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md)
+	* [Swift 文章精选](https://github.com/ipader/SwiftGuide/blob/master/Featured-Articles.md)
+3. [IoT笔记](https://github.com/ideaTouch/IoTNotes)（更新中...）
+4. [HTML5应用介绍](http://wenku.baidu.com/view/eb4f15dbad51f01dc281f129.html) (2010/11/1)
 
 ## 文章
 1. [致 Swift 开发者](blog/2014 letter.html) (2014-12-31)
