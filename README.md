@@ -2,11 +2,12 @@
 ===
 ## 关于
 <img src="ipader-logo_1.0.png" width="120px" style="float:right"/> 
-这是一个兴趣驱动型交流及分享小站。主要涉足技术领域包括：产品开发，HTML5/JS，Swift语言，iOS/Android产品及应用，开源实验性项目。
+　　这是一个兴趣驱动型交流及分享小站。主要涉足技术领域包括：产品开发，HTML5/JS，Swift语言，iOS/Android产品及应用，IoT（物联网），开源实验性项目。
 
-* [@iPader](http://weibo.com/ipader)：自有产品《读了吗》及衍生产品微博
-* [@JSLab](http://weibo.com/jslab)：HTML5/JS技术及开源项目分享微博
 * [@SwiftLanguage](http://weibo.com/swiftlanguage)：Swift语言技术及开源项目分享微博
+* [@IoT笔记](http://weibo.com/u/5592401903)：我的物联网笔记分享微博
+* [@JSLab](http://weibo.com/jslab)：HTML5/JS技术及开源项目分享微博（暂停更新）
+* [@iPader](http://weibo.com/ipader)：自有产品《读了吗》及衍生产品微博（暂停更新）
 
 ## 项目
 1. [读了吗](http://dulema.com): 它是一款跨媒体网络图书馆应用。为主流文档（PDF, Word, PPT, ePub, Text, UMD, Google Books, RSS, HTML）提供统一的管理、阅读体验！
@@ -15,7 +16,8 @@
 
 ## 分享
 1. [Swift语言指南](http://dev.swiftguide.cn) ([持续更新中...](https://github.com/ipader/SwiftGuide))
-2. [HTML5应用介绍](http://wenku.baidu.com/view/eb4f15dbad51f01dc281f129.html) (2010/11/1)
+2. [IoT笔记](https://github.com/ideaTouch/IoTNotes)（更新中...）
+3. [HTML5应用介绍](http://wenku.baidu.com/view/eb4f15dbad51f01dc281f129.html) (2010/11/1)
 
 ## 文章
 1. [致 Swift 开发者](blog/2014 letter.html) (2014-12-31)
